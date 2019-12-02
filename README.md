@@ -1,5 +1,5 @@
 ## Pattern Recognition and Machine Learning
-Pattern Recognition programming exercises, NTUA, 2019-2020.
+Pattern Recognition programming and theoretical exercises, NTUA, 2019-2020.
 
 ## Contents
 :rocket: [Handwritten Digit Recognition](https://github.com/ddaedalus/Patrec_ntua/tree/master/Lab_exercises/Lab1)   
