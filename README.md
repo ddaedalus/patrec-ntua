@@ -8,4 +8,5 @@ Ensembling, VotingClassifier, Bagging, Decision Tree Classifier, Random Forest,
 Introduction to Pytorch, Neural Networks, NN pipeline, Feed-Forward and Backpropagation   
 
 :rocket: [Digit Speech Recognition](https://github.com/ddaedalus/Patrec_ntua/tree/master/Lab_exercises/Lab2)  
-Hidden Markov Models (HMM), Gaussion Mixture Models (GMM), Recurrent Neural Networks (RNN), Long short-term memory (LSTM)
+Hidden Markov Models (HMM), Gaussion Mixture Models (GMM),   
+Recurrent Neural Networks (RNN), Long short-term memory (LSTM)
