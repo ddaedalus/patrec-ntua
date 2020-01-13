@@ -1,12 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-X_train = np.array([[1,-1,4],[1,1,2],[1,2,-2],[1,1,-4],[1,4,-1],
-                    [1,-4, 2],[1,-2,1],[1,-2,-1],[1,-1,-3],[1,-1,-6]])
-
-y_train = np.array([1,1,1,1,1,2,2,2,2,2])
-
 def perceptron(w_cur, X, r, y):
+	# Perceptron algorithm seeks for a line equation of the form: c + ax + by = 0 
+	# when samples are linearly discriminant
     while (True):
         changed = False
         for i in range(len(X_train)):
@@ -29,10 +26,20 @@ def perceptron(w_cur, X, r, y):
         
     return w_cur
 
+
+# Just an example X_train, y_train with bias terms
+X_train = np.array([[1,-1,4],[1,1,2],[1,2,-2],[1,1,-4],[1,4,-1],
+                    [1,-4, 2],[1,-2,1],[1,-2,-1],[1,-1,-3],[1,-1,-6]])
+
+y_train = np.array([1,1,1,1,1,2,2,2,2,2])
+
+# Input weight
 w = np.array([0,0,0])
+
 print(perceptron(w, X_train, 1, y_train))
 
 
+# Plot X_train, y_train and note if samples are linearly discriminant
 X_train = np.array([[-1,4],[1,2],[2,-2],[1,-4],[4,-1],
                     [-4, 2],[-2,1],[-2,-1],[-1,-3],[-1,-6]])
 X0, X1 = X_train[:,0], X_train[:,1]
@@ -44,7 +51,6 @@ for label in range(1,3):
         c=(colors[int(label)-1]), label=int(label-1),
         s=60, alpha=0.9, edgecolors='k'
     )
-    
 ax.set_xlabel('X1')
 ax.set_ylabel('X2')
 ax.set_title('Linear Discriminant Analysis')
