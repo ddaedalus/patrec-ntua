@@ -9,4 +9,8 @@ Introduction to Pytorch, Neural Networks, NN pipeline, Feed-Forward and Backprop
 
 :rocket: [Digit Speech Recognition](https://github.com/ddaedalus/Patrec_ntua/tree/master/Lab_exercises/Lab2)  
 Hidden Markov Models (HMM), Gaussian Mixture Models (GMM),   
-Recurrent Neural Networks (RNN), Long short-term memory (LSTM)
+Recurrent Neural Networks (RNN), Long short-term memory (LSTM)   
+
+:rocket: [Multitask Affective Music](https://github.com/ddaedalus/Patrec_ntua/tree/master/Lab_exercises/Lab3)  
+Long short-term memory (LSTM), Convolutional Neural Networks (CNN),   
+Transfer Learning, Multitasking
