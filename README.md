@@ -13,4 +13,4 @@ Recurrent Neural Networks (RNN), Long short-term memory (LSTM)
 
 :rocket: [Multitask Affective Music](https://github.com/ddaedalus/Patrec_ntua/tree/master/Lab_exercises/Lab3)  
 Long short-term memory (LSTM), Convolutional Neural Networks (CNN),   
-Transfer Learning, Multitasking
+Transfer Learning, Multitasking (Kaggle competition)
